@@ -1,0 +1,46 @@
+2020-03-11 10:51:27.055[main]DEBUGcom.Sun.o2o.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?) 
+2020-03-11 10:51:58.257[main]DEBUGcom.Sun.o2o.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?) 
+2020-03-11 10:53:51.942[main]DEBUGcom.Sun.o2o.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?) 
+2020-03-11 10:53:52.069[main]DEBUGcom.Sun.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺(String), test(String), test(String), test(String), test(String), null, 2020-03-11 10:53:51.476(Timestamp), null, 0(Integer), 审核中(String)
+2020-03-11 10:53:52.897[main]DEBUGcom.Sun.o2o.dao.ShopDao.insertShop - <==    Updates: 1
+2020-03-11 10:54:13.024[main]DEBUGcom.Sun.o2o.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?) 
+2020-03-11 10:54:13.063[main]DEBUGcom.Sun.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺(String), test(String), test(String), test(String), test(String), null, 2020-03-11 10:54:12.589(Timestamp), null, 0(Integer), 审核中(String)
+2020-03-11 10:54:13.162[main]DEBUGcom.Sun.o2o.dao.ShopDao.insertShop - <==    Updates: 1
+2020-03-11 11:12:41.105[main]DEBUGcom.Sun.o2o.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_desc=?, shop_addr=?, last_edit_time=? where shop_id=? 
+2020-03-11 11:12:41.164[main]DEBUGcom.Sun.o2o.dao.ShopDao.updateShop - ==> Parameters: 测试描述(String), 测试地址(String), 2020-03-11 11:12:40.63(Timestamp), 1(Long)
+2020-03-11 11:12:41.265[main]DEBUGcom.Sun.o2o.dao.ShopDao.updateShop - <==    Updates: 1
+2020-03-11 22:20:57.411[main]DEBUGcom.Sun.o2o.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?) 
+2020-03-11 22:20:57.473[main]DEBUGcom.Sun.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺1(String), test1(String), test1(String), test3(String), null, null, 2020-03-11 22:20:57.38(Timestamp), 2020-03-11 22:20:57.38(Timestamp), 0(Integer), 审核中(String)
+2020-03-11 22:20:57.543[main]DEBUGcom.Sun.o2o.dao.ShopDao.insertShop - <==    Updates: 1
+2020-03-11 22:20:57.553[main]DEBUGcom.Sun.o2o.util.ImageUtil - current relativeAddr is:upload/item/shop/3/2020031122205799198.jpg
+2020-03-11 22:20:57.554[main]DEBUGcom.Sun.o2o.util.ImageUtil - current complete addr is:/home/sxx/image/upload/item/shop/3/2020031122205799198.jpg
+2020-03-11 22:20:57.743[main]DEBUGcom.Sun.o2o.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_name=?, shop_desc=?, shop_addr=?, phone=?, shop_img=?, last_edit_time=?, enable_status=?, advice=?, area_id=?, shop_category_id=? where shop_id=? 
+2020-03-11 22:20:57.746[main]DEBUGcom.Sun.o2o.dao.ShopDao.updateShop - ==> Parameters: 测试的店铺1(String), test1(String), test1(String), test3(String), upload/item/shop/3/2020031122205799198.jpg(String), 2020-03-11 22:20:57.38(Timestamp), 0(Integer), 审核中(String), 2(Integer), 1(Long), 3(Long)
+2020-03-11 22:20:58.339[main]DEBUGcom.Sun.o2o.dao.ShopDao.updateShop - <==    Updates: 1
+2020-03-11 22:38:04.976[main]DEBUGcom.Sun.o2o.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?) 
+2020-03-11 22:38:05.014[main]DEBUGcom.Sun.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺1(String), test1(String), test1(String), test3(String), null, null, 2020-03-11 22:38:04.956(Timestamp), 2020-03-11 22:38:04.956(Timestamp), 0(Integer), 审核中(String)
+2020-03-11 22:38:05.026[main]DEBUGcom.Sun.o2o.dao.ShopDao.insertShop - <==    Updates: 1
+2020-03-11 22:38:05.048[main]DEBUGcom.Sun.o2o.util.ImageUtil - current relativeAddr is:upload/item/shop/4/2020031122380527967.jpg
+2020-03-11 22:38:05.048[main]DEBUGcom.Sun.o2o.util.ImageUtil - BasePath is:/home/sxx/o2o/target/test-classes/
+2020-03-11 22:38:05.048[main]DEBUGcom.Sun.o2o.util.ImageUtil - current complete addr is:/home/sxx/image/upload/item/shop/4/2020031122380527967.jpg
+2020-03-11 22:38:05.136[main]DEBUGcom.Sun.o2o.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_name=?, shop_desc=?, shop_addr=?, phone=?, shop_img=?, last_edit_time=?, enable_status=?, advice=?, area_id=?, shop_category_id=? where shop_id=? 
+2020-03-11 22:38:05.137[main]DEBUGcom.Sun.o2o.dao.ShopDao.updateShop - ==> Parameters: 测试的店铺1(String), test1(String), test1(String), test3(String), upload/item/shop/4/2020031122380527967.jpg(String), 2020-03-11 22:38:04.956(Timestamp), 0(Integer), 审核中(String), 2(Integer), 1(Long), 4(Long)
+2020-03-11 22:38:05.148[main]DEBUGcom.Sun.o2o.dao.ShopDao.updateShop - <==    Updates: 1
+2020-03-11 22:45:06.404[main]DEBUGcom.Sun.o2o.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?) 
+2020-03-11 22:45:06.491[main]DEBUGcom.Sun.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺1(String), test1(String), test1(String), test3(String), null, null, 2020-03-11 22:45:06.377(Timestamp), 2020-03-11 22:45:06.377(Timestamp), 0(Integer), 审核中(String)
+2020-03-11 22:45:06.494[main]DEBUGcom.Sun.o2o.dao.ShopDao.insertShop - <==    Updates: 1
+2020-03-11 22:45:06.505[main]DEBUGcom.Sun.o2o.util.ImageUtil - current relativeAddr is:upload/item/shop/5/2020031122450675444.jpg
+2020-03-11 22:45:06.506[main]DEBUGcom.Sun.o2o.util.ImageUtil - BasePath is:.jpg
+2020-03-11 22:45:06.506[main]DEBUGcom.Sun.o2o.util.ImageUtil - current complete addr is:/home/sxx/image/upload/item/shop/5/2020031122450675444.jpg
+2020-03-11 22:45:06.544[main]DEBUGcom.Sun.o2o.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_name=?, shop_desc=?, shop_addr=?, phone=?, shop_img=?, last_edit_time=?, enable_status=?, advice=?, area_id=?, shop_category_id=? where shop_id=? 
+2020-03-11 22:45:06.545[main]DEBUGcom.Sun.o2o.dao.ShopDao.updateShop - ==> Parameters: 测试的店铺1(String), test1(String), test1(String), test3(String), upload/item/shop/5/2020031122450675444.jpg(String), 2020-03-11 22:45:06.377(Timestamp), 0(Integer), 审核中(String), 2(Integer), 1(Long), 5(Long)
+2020-03-11 22:45:06.546[main]DEBUGcom.Sun.o2o.dao.ShopDao.updateShop - <==    Updates: 1
+2020-03-11 22:46:48.428[main]DEBUGcom.Sun.o2o.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?) 
+2020-03-11 22:46:48.470[main]DEBUGcom.Sun.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺1(String), test1(String), test1(String), test3(String), null, null, 2020-03-11 22:46:48.413(Timestamp), 2020-03-11 22:46:48.413(Timestamp), 0(Integer), 审核中(String)
+2020-03-11 22:46:48.475[main]DEBUGcom.Sun.o2o.dao.ShopDao.insertShop - <==    Updates: 1
+2020-03-11 22:46:48.497[main]DEBUGcom.Sun.o2o.util.ImageUtil - current relativeAddr is:upload/item/shop/6/2020031122464846590.jpg
+2020-03-11 22:46:48.498[main]DEBUGcom.Sun.o2o.util.ImageUtil - BasePath is:/home/sxx/o2o/target/test-classes/
+2020-03-11 22:46:48.498[main]DEBUGcom.Sun.o2o.util.ImageUtil - current complete addr is:/home/sxx/image/upload/item/shop/6/2020031122464846590.jpg
+2020-03-11 22:46:49.220[main]DEBUGcom.Sun.o2o.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_name=?, shop_desc=?, shop_addr=?, phone=?, shop_img=?, last_edit_time=?, enable_status=?, advice=?, area_id=?, shop_category_id=? where shop_id=? 
+2020-03-11 22:46:49.222[main]DEBUGcom.Sun.o2o.dao.ShopDao.updateShop - ==> Parameters: 测试的店铺1(String), test1(String), test1(String), test3(String), upload/item/shop/6/2020031122464846590.jpg(String), 2020-03-11 22:46:48.413(Timestamp), 0(Integer), 审核中(String), 2(Integer), 1(Long), 6(Long)
+2020-03-11 22:46:49.223[main]DEBUGcom.Sun.o2o.dao.ShopDao.updateShop - <==    Updates: 1
